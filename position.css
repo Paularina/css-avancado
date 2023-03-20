@@ -1,0 +1,40 @@
+# {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.container2 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+}
+
+.container3 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin-top: 100px;
+    border-radius: 10px;
+    position: sticky;
+    left: 10px;
+    top: 10px;
+}
